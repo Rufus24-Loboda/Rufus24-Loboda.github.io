@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 100px;
+}
+.ve {
+    margin-left: 315px;
+}
+.cards {
+    margin-left: 150px;
+ }
+.card {
+    width: 420px;
+    display: inline-block;
+}
+ img {
+    width: 420;
+    height: 280px;
+}
+.card:nth-child(n2+1){
+    margin-left: 65px;
+}
+ 
+  .btn{
+    margin-left: 508px;
+ }
+html {
+    width: 1200px;
+    height: 2236px;
+}
+ 
