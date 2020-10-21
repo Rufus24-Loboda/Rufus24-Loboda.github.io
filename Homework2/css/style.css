@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ubuntu&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -5,13 +6,17 @@
 a{
     text-decoration: none;
 }
-li{
+.Li{
     list-style: none;
     display: inline-block;
     margin-right: 100px;
+    color: #7D7D7D;
+}
+.Li:hover{
+    color: #03A9F4;
 }
 .ve {
-    margin-left: 315px;
+    margin-left: 315px;;
 }
 .cards {
     margin-left: 150px;
@@ -19,20 +24,28 @@ li{
 .card {
     width: 420px;
     display: inline-block;
+    color: #626262;
+}
+.Ta {
+    font-family: 'Ubuntu', sans-serif;
+    color: #b4ad9e;
 }
  img {
     width: 420;
     height: 280px;
 }
-.card:nth-child(n2+1){
+img {
+    width: 100%;
+}
+.card:nth-child(2n){
     margin-left: 65px;
 }
- 
-  .btn{
+.btn{
     margin-left: 508px;
+    /* margin-left: 557px; */
  }
 html {
-    width: 1200px;
+    width:1200px ;
     height: 2236px;
 }
  
