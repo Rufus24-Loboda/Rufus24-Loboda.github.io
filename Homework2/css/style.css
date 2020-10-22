@@ -6,17 +6,23 @@
 a{
     text-decoration: none;
 }
-.Li{
+.list_item {
     list-style: none;
     display: inline-block;
     margin-right: 100px;
     color: #7D7D7D;
 }
-.Li:hover{
+.list_item a {    
+    color:#7D7D7D;
+    width: 71px;
+    height: 19px;
+}
+.list_item a:hover{
     color: #03A9F4;
 }
-.ve {
-    margin-left: 315px;;
+.list {
+    /* margin-left: 315px; */
+    margin: 71px 200px 88px 315px;
 }
 .cards {
     margin-left: 150px;
@@ -25,10 +31,23 @@ a{
     width: 420px;
     display: inline-block;
     color: #626262;
+    margin: 0px 0px 130px 0px;
 }
-.Ta {
+.text {
     font-family: 'Ubuntu', sans-serif;
     color: #b4ad9e;
+    width: 64px;
+    height: 16px;
+    margin: 32px 0px;
+
+}
+.subtitle {
+    margin: 32px 0px 40px 0px;
+}
+ .last-card {
+margin: 0px;
+width: 420px;
+display: inline-block;
 }
  img {
     width: 420;
@@ -41,8 +60,16 @@ img {
     margin-left: 65px;
 }
 .btn{
-    margin-left: 508px;
-    /* margin-left: 557px; */
+    margin: 90px 450px 70px 380px;
+    width: 165px;
+    height: 60px;
+    background-color: #fff;
+    color: #626262;
+    border: 1px solid #626262;
+ }
+ .btn:hover{
+     background-color: #03A9F4;
+
  }
 html {
     width:1200px ;
