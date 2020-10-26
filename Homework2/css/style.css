@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ubuntu:wght@300&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -11,7 +11,7 @@ a{
     display: inline-block;
     margin-right: 100px;
     color: #7D7D7D;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 .list_item a {    
     color:#7D7D7D;
@@ -22,7 +22,7 @@ a{
     color: #03A9F4;
 }
 .list {
-    /* margin-left: 315px; */
+    /* margin-left: 315px; а я шо, я нічого */
     margin: 71px 200px 88px 265px;
 }
 .cards {

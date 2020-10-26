@@ -3,4 +3,10 @@
     width: 60px;
     height: 4px;
     background-color: #F38181;
+    color: #F38181;
+    justify-content: center;
+}
+.list {
+    flex-direction: row-reverse;
+    text-decoration: none;
 }
