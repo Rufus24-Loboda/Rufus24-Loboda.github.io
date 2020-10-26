@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat&family=Roboto&display=swap');
+.line {
+    width: 60px;
+    height: 4px;
+    background-color: #F38181;
+}

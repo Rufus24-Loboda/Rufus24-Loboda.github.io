@@ -11,6 +11,7 @@ a{
     display: inline-block;
     margin-right: 100px;
     color: #7D7D7D;
+    font-family: 'Playfair Display', serif;
 }
 .list_item a {    
     color:#7D7D7D;
@@ -22,7 +23,7 @@ a{
 }
 .list {
     /* margin-left: 315px; */
-    margin: 71px 200px 88px 315px;
+    margin: 71px 200px 88px 265px;
 }
 .cards {
     margin-left: 150px;
@@ -43,13 +44,17 @@ a{
 }
 .subtitle {
     margin: 32px 0px 40px 0px;
+    font-family: 'Playfair Display', serif;
+}
+.paragraph {
+    font-family: 'Playfair Display', serif;
 }
  .last-card {
 margin: 0px;
 width: 420px;
 display: inline-block;
 }
- img {
+img {
     width: 420;
     height: 280px;
 }
@@ -66,9 +71,11 @@ img {
     background-color: #fff;
     color: #626262;
     border: 1px solid #626262;
+    font-family: 'Playfair Display', serif;
  }
  .btn:hover{
      background-color: #03A9F4;
+     color: #ffff;
 
  }
 html {
