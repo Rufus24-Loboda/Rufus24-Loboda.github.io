@@ -1,12 +1,121 @@
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat&family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+html {
+    width: 1920px;
+    height: 1618px;
+}
+/* header */
+header {
+    display: flex;
+    justify-content: center;
+    /* туту були width: 1200px;
+    height: 45px;
+    background-color: blue;  */
+
+}
+
+.container{
+    width: 60.83vw;
+    /* тут був  height: 1200px; */
+    /* justify-content: center; */
+    /* background-color:blueviolet; */
+}
+.header-container {
+    /* background-color: rgb(136, 248, 248); */
+    width: 1200px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    margin-right: 590px;
+    margin-left: 0;
+    display: inline-block;
+}
+li {
+    display: inline-block;
+    letter-spacing: none;
+    margin-right: 55px;
+}
+.list{
+    display: flex;
+    font-display: row;
+    justify-content: end;
+}
+a {
+    text-decoration: none;
+}
+/* header end */
+/* body */
+main {
+    justify-content: center;
+    /* display: flex; - із за цього info i text blocks стають в рядок*/
+}
+/* перша частина */
+.info-block {
+/* пустота */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2 {
+    margin-bottom: 20px;
+}
+/* тут був не потрібний .info-block  */
 .line {
+    display: inline-block;
     width: 60px;
     height: 4px;
     background-color: #F38181;
-    color: #F38181;
+    flex-direction: row;
     justify-content: center;
 }
-.list {
-    flex-direction: row-reverse;
-    text-decoration: none;
+.benefits {
+    width: 1163px;
+    height: 253px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.benefit {
+    display: flex;
+    width: 28.33%;
+    background-color: #ddbcf8;
+}
+.benefit:nth-child(2n+1){
+    background-color: rgb(132, 162, 247);
+}
+.text-block {
+    display: inline-block;
+    width: 331.78px;
+    height: 74px;
+    /* margin: 65px 70px 100px 70px; */
+    font-display: row;
+    align-content: stretch;
+}
+.img-block {
+    display: flex;
+    height: 100%;
+    width: 11.17%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* padding-right: 20px; */
+}
+/* кфнець першої частини */
+.linesecond {
+    display: flex;
+/* пустота */
+    width: 1200px;
+    height: 1px;
+    background-color: #B6B6B6;
+}
+
+.main {
+    display: flex;
 }
