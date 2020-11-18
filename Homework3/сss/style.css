@@ -2,10 +2,7 @@
     padding: 0;
     margin: 0;
 }
-html {
-    width: 1920px;
-    height: 1618px;
-}
+
 /* header */
 header {
     display: flex;
@@ -23,27 +20,30 @@ header {
     /* background-color:blueviolet; */
 }
 .header-container {
-    /* background-color: rgb(136, 248, 248); */
-    width: 1200px;
-    height: 45px;
+    width: 100%;
+}
+.logo {
+    /* display: inline-block; */
+}
+nav {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.logo {
-    margin-right: 590px;
-    margin-left: 0;
-    display: inline-block;
-}
 li {
     display: inline-block;
     letter-spacing: none;
-    margin-right: 55px;
 }
-.list{
-    display: flex;
+.list {
+    /* display: block;
     font-display: row;
     justify-content: end;
+    position: absolute; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 39.16%;
 }
 a {
     text-decoration: none;
@@ -52,7 +52,7 @@ a {
 /* body */
 main {
     justify-content: center;
-    /* display: flex; - із за цього info i text blocks стають в рядок*/
+    display: flex;
 }
 /* перша частина */
 .info-block {
@@ -61,7 +61,7 @@ main {
     flex-direction: column;
     align-items: center;
 }
-h2 {
+.title {
     margin-bottom: 20px;
 }
 /* тут був не потрібний .info-block  */
@@ -74,13 +74,14 @@ h2 {
     justify-content: center;
 }
 .benefits {
-    width: 1163px;
-    height: 253px;
+    /* width: 1163px;
+    height: 253px; */
     flex-wrap: wrap;
     justify-content: space-between;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 75%;
 
 }
 .benefit {
@@ -93,8 +94,6 @@ h2 {
 }
 .text-block {
     display: inline-block;
-    width: 331.78px;
-    height: 74px;
     /* margin: 65px 70px 100px 70px; */
     font-display: row;
     align-content: stretch;
@@ -105,17 +104,45 @@ h2 {
     width: 11.17%;
     justify-content: flex-start;
     align-items: flex-start;
-    /* padding-right: 20px; */
+    padding-right: 23px;
 }
 /* кфнець першої частини */
 .linesecond {
     display: flex;
 /* пустота */
-    width: 1200px;
     height: 1px;
     background-color: #B6B6B6;
 }
 
 .main {
+    /* display: flex; */
+}
+.benefit-description {
+    width: 1104px;
+    text-align: center;
+    display: block;
+    justify-content: center;
+}
+.card {
+    height: 50%;
+}
+.text {
+    display: block;
+}
+button {
+    display: block;
+}
+.container-second {
     display: flex;
+    width: 65.625vw;
+}
+.team {
+    display: flex;
+    justify-content: space-between;
+}
+.gradient {
+    display: none;
+}
+.person {
+
 }
