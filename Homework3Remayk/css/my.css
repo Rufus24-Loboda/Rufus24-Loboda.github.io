@@ -12,7 +12,7 @@ header {
     align-items: center;
 }
 .container {
-    width: 60.83vw; 
+    width: 62.5vw; 
 }
 .logo {
     color: #95E1D3;
@@ -89,20 +89,63 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    min-width: 1168px;
 }
 .benefit {
     display: flex;
     width: 28.33%;
     height: 29.24%;
     justify-content: space-between; 
-    align-items: center;
+    align-items: flex-start;
+    margin-bottom: 100px;
 }
 .img-block {
     display: flex;
     height: 100%;
-    width: 16.91%;
+    min-width: 57px;
     justify-content: flex-start;
     align-items: flex-start;
+}
+.card {
+    min-height: 37px;
+}
+.benefit-description {
+    text-align: center;
+}
+.mans-container {
+    width: 65.625vw;
+}
+.team {
+    display: flex;
+    justify-content: space-between;
+}
+.person {
+    width: 30.95%;
+}
+.gradient {
+    display: none;
+}
+.man {
+    width: 100%;
+    min-height: 380px;
+    block-size: cover;
+    background-position: center;
+}
+.first-man .man {
+    background-image: url(../img/man1.svg);
+}
+.second-man .man {
+    background-image: url(../img/man2.svg);
+}
+.third-man .man {
+    background-image: url(../img/man3.svg);
+}
+.name {
+    text-align: center;
+}
+.team {
+    display: flex;
+    justify-content: space-between;
 }
 .linesecond {
     display: flex;
