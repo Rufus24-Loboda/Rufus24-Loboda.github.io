@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif; */
 * {
     margin: 0;
     padding: 0;
@@ -19,6 +23,7 @@ nav {
     display: flex;
     /* flex-direction: row; */
     justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
 }
 .logo {
     color: #95E1D3;
@@ -74,11 +79,19 @@ main {
     margin-bottom: 65px;
     margin-top: 81px;
 }
+.text-benefit {
+    font-family: 'Roboto', sans-serif;
+    color: #B6B6B6;
+
+}
 .title {
     margin-bottom: 20px;
+    font-family: 'Kaushan Script', cursive;
 }
 .subtitle {
     margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
 }
 .line {
     display: inline-block;
@@ -86,6 +99,10 @@ main {
     height: 4px;
     background-color: #F38181;
     margin-bottom: 40px;
+}
+.benefit-description{
+    font-family: 'Roboto', sans-serif;
+    color: #B6B6B6;
 }
 .benefits {
     display: flex;
@@ -112,7 +129,9 @@ main {
     align-items: flex-start;
 }
 .card {
+    font-size: 14px;
     min-height: 37px;
+    font-family: 'Montserrat', sans-serif;
 }
 .benefit-description {
     text-align: center;
@@ -172,6 +191,7 @@ main {
     min-height: 380px;
     block-size: cover;
     background-position: center;
+    margin-bottom: 30px;
 }
 .first-man .man {
     background-image: url(../img/man1.svg);
@@ -193,6 +213,14 @@ main {
 }
 .name {
     text-align: center;
+    margin-bottom: 11px;
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+}
+.jobe {
+    color: #B6B6B6;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 15px;
 }
 .team {
     display: flex;
@@ -215,11 +243,15 @@ footer {
     background-color: #B6B6B6;
     
 }
+.footer-text {
+    font-family: 'Montserrat', sans-serif;
+}
 .footer-text-next {
     color: #F38181;
 }
 input::placeholder {
     color: #B6B6B6;
+    font-family: 'Roboto', sans-serif;
 }
 input {
     width: 230px;
@@ -240,4 +272,5 @@ button {
     height: 40px;
     background: #95E1D3;
     border: none;
+    font-family: 'Montserrat', sans-serif;
 }
