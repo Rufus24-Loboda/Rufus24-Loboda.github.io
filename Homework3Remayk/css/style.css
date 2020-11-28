@@ -203,8 +203,9 @@ footer {
     justify-content: center;
 }
 .footer-conteiner {
-    display: flex;
-    justify-content: space-between;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    flex-direction: row;
 }
 .linesecond {
     margin-bottom: 10px;
