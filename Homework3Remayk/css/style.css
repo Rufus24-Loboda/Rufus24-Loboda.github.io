@@ -26,9 +26,11 @@ nav {
     font-family: 'Montserrat', sans-serif;
 }
 .logo {
+    margin-top: 17px;
     color: #95E1D3;
 }
 .list {
+    margin-top: 25px;
     width: 39.16%;
     display: flex;
     justify-content: space-between;
@@ -229,6 +231,7 @@ main {
 footer {
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
 }
 .footer-conteiner {
     /* display: flex; */
@@ -243,9 +246,15 @@ footer {
     background-color: #B6B6B6;
     
 }
-.footer-text {
-    font-family: 'Montserrat', sans-serif;
+.footer-text-first {   
+    display: inline-block;
 }
+.footer-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+ }
 .footer-text-next {
     color: #F38181;
 }
