@@ -26,8 +26,10 @@ nav {
     font-family: 'Montserrat', sans-serif;
 }
 .logo {
+
     margin-top: 17px;
     color: #95E1D3;
+    font-weight: bold;
 }
 .list {
     margin-top: 25px;
@@ -48,6 +50,7 @@ a {
 .list a::after {
     display: block;
     position: absolute;
+    top: 20px;
     height: 2px;
     background-color: #F38181;
     content: "";
@@ -87,6 +90,7 @@ main {
 
 }
 .title {
+    font-weight: bold;
     margin-bottom: 20px;
     font-family: 'Kaushan Script', cursive;
 }
@@ -223,6 +227,8 @@ main {
     color: #B6B6B6;
     font-family: 'Roboto', sans-serif; 
     font-size: 15px;
+    font-weight: lighter;
+    font-style: italic;
 }
 .team {
     display: flex;
@@ -282,4 +288,6 @@ button {
     background: #95E1D3;
     border: none;
     font-family: 'Montserrat', sans-serif;
+    color: #ffff;
+    font-weight: bold;
 }
