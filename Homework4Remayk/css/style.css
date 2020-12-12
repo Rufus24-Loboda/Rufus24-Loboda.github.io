@@ -81,6 +81,7 @@ main {
     align-items: center;
 }
 .title {
+    text-transform: uppercase;
     margin-top: 92px;
     margin-bottom: 93px;
     font-family: 'Montserrat', sans-serif;
@@ -120,6 +121,8 @@ main {
     color: #ffff;
     margin-top: 92px;
     margin-bottom: 116px;
+    text-transform: uppercase;
+    
 }
 .dark-block {
     display: flex;
@@ -128,41 +131,59 @@ main {
 }
 .blocks {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
-    height: 35%;
+    height: 15.38vw;
     margin-bottom: 27px;
 }
 .left-block {
     flex-direction: column;
     width: 47.99%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .right-block {
-    height: 67.55%;
-    /* height: 200px; */
+    border: none;
 }
-.some-text-right {
-    font-family: 'Montserrat', sans-serif;
-    width: 458px;
-    height: 67.55%;
-}
+
 .some-text {
-    font-family: 'Montserrat', sans-serif;
+   
     width: 100%;
     height: 50px;
     /* min-height: 32.64%; */
     flex-direction: column;
+}
+textarea{
+    font-family: 'Montserrat', sans-serif;
+    color: #BBBBBB;
+    padding-top: 14px;
+    padding-left: 22px;
+}
+
+.some-text-right {
+    display: inline-block;
+    ;
+    width: 458px;
+    height: 100%;
+    border: none;
+    color: #BBBB;
+}
+input{
+    color: #BBBB;
+    font-family: 'Montserrat', sans-serif
 }
 input::placeholder {
     display: inline-block;
     height: 100%;
     justify-content: flex-start;
     align-items: flex-start;
-    
+    padding-left: 12px;
+    padding-bottom: 22px;
+    /* padding-top: 14px; */
 }
+
 button {
+    text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     display: flex;
     width: 242px;
@@ -171,5 +192,6 @@ button {
     background-color: #FED136;
     display: block;
     margin-left: auto;
-    margin-right: auto 
+    margin-right: auto;
+    margin-bottom: 115px; 
 }
