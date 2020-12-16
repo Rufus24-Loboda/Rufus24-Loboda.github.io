@@ -48,7 +48,7 @@ li {
 a {
     text-decoration: none;
     color: #FED136;
-    ;
+    
 }
 .list a {
     position: relative;
@@ -81,6 +81,7 @@ main {
     align-items: center;
 }
 .title {
+    font-weight: bolder;
     text-transform: uppercase;
     margin-top: 92px;
     margin-bottom: 93px;
@@ -111,9 +112,11 @@ main {
 .subtitle {
     margin-bottom: 20px;
     font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
 }
 .text {
     text-align: center;
+    color: #777777;
     font-family: 'Roboto Slab', serif;
 }
 .light-title {
@@ -122,7 +125,7 @@ main {
     margin-top: 92px;
     margin-bottom: 116px;
     text-transform: uppercase;
-    
+    font-weight: bolder;
 }
 .dark-block {
     display: flex;
@@ -144,8 +147,9 @@ main {
 }
 .right-block {
     border: none;
+    width: 48.56%;
+   
 }
-
 .some-text {
    
     width: 100%;
@@ -157,19 +161,19 @@ textarea{
     font-family: 'Montserrat', sans-serif;
     color: #BBBBBB;
     padding-top: 14px;
+    width: 100%;
     padding-left: 22px;
 }
 
 .some-text-right {
-    display: inline-block;
-    ;
-    width: 458px;
-    height: 100%;
+    display: inline-block; 
+    /* height: 100%; */
+    height: calc(100% - 14px);
     border: none;
-    color: #BBBB;
+    color: #BBBBBB;
 }
 input{
-    color: #BBBB;
+    color: #BBBBBB;
     font-family: 'Montserrat', sans-serif
 }
 input::placeholder {
@@ -181,7 +185,10 @@ input::placeholder {
     padding-bottom: 22px;
     /* padding-top: 14px; */
 }
-
+textarea::placeholder {
+    color: #BBBB;
+    font-family: 'Montserrat', sans-serif
+}
 button {
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
@@ -194,4 +201,7 @@ button {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 115px; 
+    border: none;
+    font-weight: bolder;
+
 }
