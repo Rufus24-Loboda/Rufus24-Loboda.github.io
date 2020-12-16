@@ -33,6 +33,9 @@ nav {
     color: #FED136;
     font-family: 'Bilbo Swash Caps', cursive;
     font-size: 36px;
+    line-height: 41px;
+    font-weight: normal;
+    font-style: normal;
 }
 .list {
     font-family: 'Montserrat', sans-serif;
