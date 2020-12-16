@@ -81,7 +81,8 @@ main {
     align-items: center;
 }
 .title {
-    font-weight: bolder;
+    font-size: 40px;
+    /* font-weight: bolder; */
     text-transform: uppercase;
     margin-top: 92px;
     margin-bottom: 93px;
@@ -125,7 +126,7 @@ main {
     margin-top: 92px;
     margin-bottom: 116px;
     text-transform: uppercase;
-    font-weight: bolder;
+    font-size: 40px;
 }
 .dark-block {
     display: flex;
