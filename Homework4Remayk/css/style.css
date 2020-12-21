@@ -153,7 +153,7 @@ main {
 .right-block {
     border: none;
     width: 48.56%;
-   
+    color: #BBBBBB;
 }
 .some-text {
    
@@ -175,7 +175,7 @@ textarea{
     /* height: 100%; */
     height: calc(100% - 14px);
     border: none;
-    color: #BBBBBB;
+    
 }
 input{
     color: #BBBBBB;

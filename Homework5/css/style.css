@@ -5,13 +5,14 @@
 .container {
     width: 88.125vw;
 }
-.conteiner-holideys{
+.container-holidey {
     width: 100%;
     display: flex;
     justify-content: center;
-    background-image: url(../img/aaa.png);
-    background-position:center;
+    background-image: url(../img/png.svg);
+    background-position: center;
     background-size: cover;
+    flex-direction: column;
 }
 a {
     text-decoration: none;
@@ -60,7 +61,7 @@ nav {
 }
 
 .about-holiday a {
-    width: 100%;
+    width: 88.125%;
     min-width: 290px;
     padding: 13px 0;
     background-repeat: 30px;
@@ -96,6 +97,9 @@ nav {
     font-style: 14.0112px;
     line-height: 16px;
     color:#666666;
+}
+.cool-text {
+    text-align: center;
 }
 .team-btn {
     padding: 13px 60px;
