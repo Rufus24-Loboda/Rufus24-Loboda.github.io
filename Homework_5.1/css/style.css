@@ -48,6 +48,8 @@ nav {
     border: 2px solid #ffff;
     border-radius: 30px;
     padding: 9px 5px;
+    width: 92px;
+    height: 39px;
 }
 .about-holiday {
     color: #ffff;
@@ -165,6 +167,12 @@ nav {
     margin-bottom: 50px;
 }
 @media screen and (min-width: 768px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
     nav {
         flex-direction: row;
         justify-content: space-around;
@@ -184,11 +192,56 @@ nav {
     .text {
         max-width: 507px;
         margin-top: 135px;
-        font-style: normal;
-        font-weight: bold;
         font-size: 52px;
         line-height: 63px;
         text-align: center;
-        color: #ffffff;
     }
+    .subtext {
+        margin-top: 36px;
+        font-size: 24px;
+        line-height: 28px;
+        min-width: 428px;
+    }
+    .link {
+        margin-top: 45px;
+        min-width: 228px;
+        margin-bottom: 223px;
+    }
+    .title {
+        margin-top: 67px;
+        margin-bottom: 35px;
+    }
+    .employees {
+        width: 61.2%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap-reverse;
+    }
+    .employee {
+        width: 41.28%;
+    }
+    .team-btn {
+        margin-top: 38px;
+    }
+   
+}
+@media screen and (min-width: 1440px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .title {
+        margin-top: 65px;
+    }
+    .employees {
+        width: 63.3%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+    .employee {
+        width: 21.2%;
+    }
+
 }
