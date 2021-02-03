@@ -1,3 +1,5 @@
+// Практичне завдання 3. Числа і рядки
+
 // модуль 3. задачі
 // 1
 // const number = 24;
@@ -12,12 +14,12 @@
 //     console.log ("not Перше число")
 // }
 // 3
-const number = 5 % 2;
-if (number === 0) {
-    console.log( number + "grn" );
-} else {
-    console.log (number + "євро")
-}
+// const number = 5 % 2;
+// if (number === 0) {
+//     console.log( number + "grn" );
+// } else {
+//     console.log (number + "євро")
+// }
 // 4
-const age = prompt('Скільки вам років?');
-if (age )
+// const age = prompt('Скільки вам років?');
+// if (age )
