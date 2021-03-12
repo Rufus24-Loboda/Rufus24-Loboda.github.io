@@ -20,13 +20,13 @@
 //       }
 // }
 // 4
-const message = 'Welcome to Ukraine!';
-for (const character of message) {
-    console.log(character);
-  }
-  console.log(message.split('l'));
-  console.log(message.indexOf("l")); 
-  console.log(message.join(''));
+// const message = 'Welcome to Ukraine!';
+// for (const character of message) {
+//     console.log(character);
+//   }
+//   console.log(message.split('l'));
+//   console.log(message.indexOf("l")); 
+//   console.log(message.join(''));
 //   console.log(clients.join('l'));
 // 5
 // let styles = ['Джаз', 'Блюз'];
