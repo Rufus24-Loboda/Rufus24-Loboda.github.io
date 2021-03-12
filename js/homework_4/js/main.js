@@ -40,15 +40,15 @@
 //     alert ('You are... 🌚');
 // }
 // 6
-let Name = 
+// let Name = 
 
-prompt ("введіть ваше ім'я");
-let surname = prompt ("введіть ваше призвіще");
-if (Name.length >5 && surname.length > 4){
-    console.log(Name.length + surname.length);
-} else {
-    console.log('УПС');
-}
+// prompt ("введіть ваше ім'я");
+// let surname = prompt ("введіть ваше призвіще");
+// if (Name.length >5 && surname.length > 4){
+//     console.log(Name.length + surname.length);
+// } else {
+//     console.log('УПС');
+// }
 
 // 7
 // let number = Math.floor(Math.random() * 6);
@@ -67,8 +67,9 @@ if (Name.length >5 && surname.length > 4){
 // }
 // 8
 // let age = prompt ('введіть вік вашого сусіда зліва');
-// if ( age > 12 ) {
-//     alert (age + 12);
+// let myAge = Number.parseInt(age)
+// if ( myAge > 12 ) {
+//     alert (myAge + 12);
 // } else {
 //     alert ('You are... 🌚')
 // }
