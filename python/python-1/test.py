@@ -1,0 +1,5 @@
+name = input("Вкажіть ваше ім*я: ")
+surname = input("Вкажіть ваше призвіще: ")
+clas = input ("Вкажіть ваш clas: ")
+scool = input ("Вкажіть вашy scool: ")
+print("Зошит " + "Для робіт з інформатики " + "Учня " + clas + "класу " + scool + surname + name)
